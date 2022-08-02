@@ -239,31 +239,16 @@ main {
   overflow: hidden;
 }
 
-@media screen and (min-width: 40rem) {
-  .card {
-    flex-direction: row !important;
-  }
-
-  .paragraph {
-    max-width: 25ch;
-  }
-
-  .primary-heading {
-
-    max-width: 10ch;
-  }
-}
-
 .image,
 .desc {
   flex: 50%;
 }
 
 .image {
-  background-image: url('./images/image-product-desktop.jpg');
+  background-image: url('./images/image-product-mobile.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   min-height: 250px;
 }
 
@@ -301,4 +286,23 @@ span {
 
 .button img {
   margin-right: var(--size-300);
+}
+
+@media screen and (min-width: 40rem) {
+  .card {
+    flex-direction: row !important;
+  }
+
+  .paragraph {
+    max-width: 25ch;
+  }
+
+  .primary-heading {
+
+    max-width: 10ch;
+  }
+
+  .image {
+    background-image: url('./images/image-product-desktop.jpg');
+  }
 }
