@@ -1,7 +1,8 @@
 /* root styles */
 :root {
   /* project main colors */
-  --dark-cyan: hsl(158, 36%, 37%);
+  --cyan: hsl(158, 36%, 37%);
+  --dark-cyan: hsl(158, 37%, 20%);
   --cream: hsl(30, 38%, 92%);
   --very-dark-blue: hsl(212, 21%, 14%);
   --dark-grayish-blue: hsl(228, 12%, 48%);
@@ -123,7 +124,7 @@ h6,
 
 /* Utility classes */
 .text-cyan {
-  color: var(--dark-cyan);
+  color: var(--cyan);
 }
 
 .text-cream {
@@ -165,12 +166,7 @@ h6,
 .primary-heading {
   font-size: var(--fs-primary-heading);
   font-weight: var(--fw-primary-heading);
-  max-width: 10ch;
-  line-height: 1.2;
-}
-
-.paragraph {
-  max-width: 25ch;
+  line-height: 1;
 }
 
 .uppercase {
@@ -178,7 +174,7 @@ h6,
 }
 
 .mono-space {
-  letter-spacing: .2em;
+  letter-spacing: 4px;
 }
 
 .line-through {
@@ -243,11 +239,21 @@ main {
   overflow: hidden;
 }
 
-@media screen and (min-width: 27rem) {
- .card{
-  flex-direction: row !important;
- }
+@media screen and (min-width: 40rem) {
+  .card {
+    flex-direction: row !important;
+  }
+
+  .paragraph {
+    max-width: 25ch;
+  }
+
+  .primary-heading {
+
+    max-width: 10ch;
+  }
 }
+
 .image,
 .desc {
   flex: 50%;
@@ -256,9 +262,9 @@ main {
 .image {
   background-image: url('./images/image-product-desktop.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   min-height: 250px;
-  background-color: aqua;
 }
 
 .desc {
@@ -276,15 +282,23 @@ span {
 }
 
 .button {
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 80%;
+  width: 100%;
   border: none;
   border-radius: var(--size-200);
+  background-color: var(--cyan);
   padding: var(--size-300);
+  font-weight: var(--fw-700);
 }
+
+.button:hover {
+  background-color: var(--dark-cyan);
+}
+
 .button img {
   margin-right: var(--size-300);
 }
