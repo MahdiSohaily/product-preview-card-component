@@ -244,14 +244,6 @@ main {
   flex: 50%;
 }
 
-/* .image {
-  /* background-image: url('./images/image-product-mobile.jpg'); 
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  min-height: 280px;
-} */
-
 .desc {
   padding: var(--size-900);
 }
@@ -302,8 +294,4 @@ span {
 
     max-width: 10ch;
   }
-
-  /* .image {
-    background-image: url('./images/image-product-desktop.jpg');
-  } */
 }
