@@ -15,7 +15,7 @@
   font-size: 14px;
   --fs-tiny: 0.8rem;
   --fs-regular: 1em;
-  --fs-big: 2em;
+  --fs-big: 2.2em;
 
   --fs-primary-heading: var(--fs-big);
 
@@ -109,7 +109,7 @@ select {
 
 html,
 body {
-  height: 100%;
+  height: 100vh;;
 }
 
 h1,
@@ -165,8 +165,8 @@ h6,
 
 .primary-heading {
   font-size: var(--fs-primary-heading);
-  font-weight: var(--fw-primary-heading);
-  line-height: 1;
+  font-weight: normal ;
+  line-height: 1.1;
 }
 
 .uppercase {
@@ -224,7 +224,7 @@ h6,
 /* styling */
 
 main {
-  height: 100%;
+  min-height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -244,16 +244,16 @@ main {
   flex: 50%;
 }
 
-.image {
-  background-image: url('./images/image-product-mobile.jpg');
+/* .image {
+  /* background-image: url('./images/image-product-mobile.jpg'); 
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom;
-  min-height: 250px;
-}
+  background-position: center;
+  min-height: 280px;
+} */
 
 .desc {
-  padding: var(--size-700);
+  padding: var(--size-900);
 }
 
 .price {
@@ -295,6 +295,7 @@ span {
 
   .paragraph {
     max-width: 25ch;
+    line-height: 1.7;
   }
 
   .primary-heading {
@@ -302,7 +303,7 @@ span {
     max-width: 10ch;
   }
 
-  .image {
+  /* .image {
     background-image: url('./images/image-product-desktop.jpg');
-  }
+  } */
 }
