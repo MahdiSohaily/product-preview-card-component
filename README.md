@@ -26,9 +26,7 @@ Users should be able to:
 
 | Desktop version                              |               Mobile Version                |
 | -------------------------------------------- | :-----------------------------------------: |
-| ![Solution Screenshot](./design/my%20solution.png) | ![Solution Screenshot](./design/my%20solution%20mobile.png) 
-
-The first screenshot is the actual challenge look and the two followed screenshots are the once i created
+| ![Solution Screenshot](./design/my%20solution.png) | ![Solution Screenshot](./design/my%20solution%20mobile.png) |
 
 ### Links
 
