@@ -24,16 +24,16 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/desktop-preview.jpg)
-![](./design/my%20solution.png)
-![](./design/my%20solution%20mobile.png)
+| Desktop version                              |               Mobile Version                |
+| -------------------------------------------- | :-----------------------------------------: |
+| ![Solution Screenshot](./design/my%20solution.png) | ![Solution Screenshot](./design/my%20solution%20mobile.png) 
 
 The first screenshot is the actual challenge look and the two followed screenshots are the once i created
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/product-preview-card-component-YQRg60pmcN)
+- Live Site URL: [live site URL](https://mahdisohaily.github.io/product-preview-card-component/)
 
 ## My process
 
